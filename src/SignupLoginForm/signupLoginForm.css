@@ -153,6 +153,10 @@ button.ghost {
   z-index: 200;
   position: fixed;
   transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
   transition: transform 0.6s ease-in-out;
   opacity: 1;
@@ -198,6 +202,10 @@ button.ghost {
   /* transform: translateX(80%);
   animation: show-login-2 0.6s forwards; */
   display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* apo eod kai kato eian igia mesa sto div opote dne pirazei */
@@ -221,7 +229,7 @@ button.ghost {
 .title {
   text-align: center;
   font-size: 24px;
-  padding-top: 24px;
+  /* padding-top: 24px; */
   letter-spacing: 0.5px;
 }
 
@@ -309,7 +317,7 @@ ul {
 }
 
 /* Csss gia mikres othones */
-@media (max-width: 375px) {
+@media (max-width: 550px) {
   .sign-up-body {
     /* tha valo to xroma apo to alo tutorial gia na to kano pio oreo */
     background: #ecf0f3;
